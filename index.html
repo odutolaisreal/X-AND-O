@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic tac toe game</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <span class="t-word">Tic</span> <span class="t-word">tac</span>
+        <span class="t-word">toe</span>
+      </h1>
+      <div class="settings">
+        <div class="options">
+          <button class="btn option" id="computer">Play with computer</button>
+          <button class="btn option" id="multiple">Play with friend</button>
+        </div>
+        <div class="players">
+          <span class="btn player" id="x">X</span>
+          <span class="btn player" id="o">O</span>
+        </div>
+      </div>
+      <h3 class="message"></h3>
+      <div class="game">
+        <div class="board">
+          <div class="field" data-number="0"></div>
+          <div class="field" data-number="1"></div>
+          <div class="field" data-number="2"></div>
+          <div class="field" data-number="3"></div>
+          <div class="field" data-number="4"></div>
+          <div class="field" data-number="5"></div>
+          <div class="field" data-number="6"></div>
+          <div class="field" data-number="7"></div>
+          <div class="field" data-number="8"></div>
+        </div>
+      </div>
+      <div class="message-box hide">
+        <h2 class="winner">Winner</h2>
+        <button class="btn play-again">play again</button>
+      </div>
+    </div>
+  </body>
+</html>
